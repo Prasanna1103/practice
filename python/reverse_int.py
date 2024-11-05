@@ -1,5 +1,13 @@
 import math
 
+def main():
+    num = 7234
+    print(f"original number: {num}")
+
+    reversed = reverse(num)
+    #resersed *= 3
+    print(f"reversed number: {reversed}")
+
 def reverse(num):
     result = 0
     while num > 0:
@@ -9,9 +17,5 @@ def reverse(num):
         print(f"a = {a}, num = {result}")
     return result
 
-num = 7234
-print(f"original number: {num}")
-
-reversed = reverse(num)
-#resersed *= 3
-print(f"reversed number: {reversed}")
+if __name__ == '__main__':
+    main()
